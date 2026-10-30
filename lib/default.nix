@@ -339,6 +339,11 @@ inputs."nixpkgs".lib.extend (
         githubId = 6445619;
         name = "Ruben Cano";
       };
+      imkarrer = {
+        github = "imkarrer";
+        githubId = 7797790;
+        name = "Isaac Karrer";
+      };
     };
   }
 )

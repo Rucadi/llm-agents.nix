@@ -10,13 +10,13 @@
 
 stdenv.mkDerivation (finalAttrs: {
   pname = "fx";
-  version = "0.0.14";
+  version = "0.0.16";
 
   src = fetchFromGitHub {
     owner = "vercel-labs";
     repo = "fx";
     tag = "v${finalAttrs.version}";
-    hash = "sha256-jvQdj+0bpv8F0VCCUvjLkZCCiVX/bQuHIFxqd9OWACM=";
+    hash = "sha256-zAvoaadFqjLEsXQt9GyU0ziHaW6wMh2JRCR2PSB1AZU=";
   };
 
   nativeBuildInputs = [ zig_0_17.hook ];
